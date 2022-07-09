@@ -1,10 +1,69 @@
-"dept_no","dept_name"
-"d001","Marketing"
-"d002","Finance"
-"d003","Human Resources"
-"d004","Production"
-"d005","Development"
-"d006","Quality Management"
-"d007","Sales"
-"d008","Research"
-"d009","Customer Service"
+/* CREATE TABLE */
+CREATE TABLE department(
+dept_no VARCHAR(100),
+dept_name VARCHAR(100)
+);
+
+/* INSERT QUERY NO: 1 */
+INSERT INTO department(dept_no, dept_name)
+VALUES
+(
+'"d001"', '"Marketing"'
+);
+
+/* INSERT QUERY NO: 2 */
+INSERT INTO department(dept_no, dept_name)
+VALUES
+(
+'"d002"', '"Finance"'
+);
+
+/* INSERT QUERY NO: 3 */
+INSERT INTO department(dept_no, dept_name)
+VALUES
+(
+'"d003"', '"Human Resources"'
+);
+
+/* INSERT QUERY NO: 4 */
+INSERT INTO department(dept_no, dept_name)
+VALUES
+(
+'"d004"', '"Production"'
+);
+
+/* INSERT QUERY NO: 5 */
+INSERT INTO department(dept_no, dept_name)
+VALUES
+(
+'"d005"', '"Development"'
+);
+
+/* INSERT QUERY NO: 6 */
+INSERT INTO department(dept_no, dept_name)
+VALUES
+(
+'"d006"', '"Quality Management"'
+);
+
+/* INSERT QUERY NO: 7 */
+INSERT INTO department(dept_no, dept_name)
+VALUES
+(
+'"d007"', '"Sales"'
+);
+
+/* INSERT QUERY NO: 8 */
+INSERT INTO department(dept_no, dept_name)
+VALUES
+(
+'"d008"', '"Research"'
+);
+
+/* INSERT QUERY NO: 9 */
+INSERT INTO department(dept_no, dept_name)
+VALUES
+(
+'"d009"', '"Customer Service"'
+);
+
